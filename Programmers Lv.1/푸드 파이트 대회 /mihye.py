@@ -6,9 +6,8 @@ def solution(food):
         for _ in range(n):
             answer += str(i)
 
-    answer += '0'
     answer2 = answer[::-1]
-    answer2 = answer2[1:]
+    answer += '0'
     answer += answer2
 
     return answer
