@@ -10,8 +10,6 @@ def solution(answers):
     cnum = 0
 
     i = 0
-    j = 0
-    k = 0
 
     for x in answers:
         if a[i % len(a)] == x:
